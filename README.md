@@ -3,7 +3,7 @@
 A modular Python framework for computing SPEI‑based drought indicators, engineering predictive features, training machine learning models, and generating interpretable drought forecasts across the Canary Islands. The workflow integrates Random Forest and XGBoost models with SHAP and LIME interpretability tools, producing transparent, data‑driven predictions of short‑term drought conditions.
 
 ## Input data
-input datasets can be freely downloaded [here] (https://www.miteco.gob.es/ca/agua/temas/evaluacion-de-los-recursos-hidricos/evaluacion-recursos-hidricos-regimen-natural.html).
+input datasets can be freely downloaded [here](https://www.miteco.gob.es/ca/agua/temas/evaluacion-de-los-recursos-hidricos/evaluacion-recursos-hidricos-regimen-natural.html).
 
 ## How to run
 > [!IMPORTANT]  
