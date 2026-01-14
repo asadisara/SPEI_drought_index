@@ -56,3 +56,10 @@ This executes:
 - figure generation <br />
 
 All outputs will be saved automatically to:
+
+```bash
+output/plots/
+output/tables/
+output/explanations/
+```
+
