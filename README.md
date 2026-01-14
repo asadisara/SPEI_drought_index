@@ -1,7 +1,36 @@
-# **LEVERAGING INTERPRETABLE MACHINE LEARNING FOR DROUGHT MONITORING IN THE CANARY ISLANDS
+# **LEVERAGING INTERPRETABLE MACHINE LEARNING FOR DROUGHT MONITORING IN THE CANARY ISLANDS: A DATA‑DRIVEN STUDY**
 
-A Python-based framework for computing SPEI, engineering predictive features, training machine learning models, and generating interpretable drought forecasts across the Canary Islands. The workflow integrates Random Forest and XGBoost models with SHAP and LIME interpretability tools, producing transparent, data-driven predictions of short-term drought conditions. 
+A modular Python framework for computing SPEI‑based drought indicators, engineering predictive features, training machine learning models, and generating interpretable drought forecasts across the Canary Islands. The workflow integrates Random Forest and XGBoost models with SHAP and LIME interpretability tools, producing transparent, data‑driven predictions of short‑term drought conditions.
 
-## Project Overview
+## Input data
+input datasets can be freely downloaded [here] (https://www.miteco.gob.es/ca/agua/temas/evaluacion-de-los-recursos-hidricos/evaluacion-recursos-hidricos-regimen-natural.html).
 
-This repository implements the modelling pipeline used in the study “Leveraging Interpretable Machine Learning for Drought Monitoring in the Canary Islands: A Data‑Driven Study.”  
+## How to run
+> [!IMPORTANT]  
+> This code is shared for transparency and does not run out‑of‑the‑box, as the training CSV files are not included in this repository.
+
+First, make sure you have conda installed. Then install the environment and dependencies.
+
+1. Clone the project:
+
+```bash
+git clone https://github.com/asadisara/SPEI_drought_index.git
+```
+
+2. Create and activate the environment
+
+```bash
+cd SPEI_drought_index
+conda create -n spei-env python=3.11
+conda activate spei-env
+pip install -r requirements.txt
+```
+
+3. Add your data
+
+```bash
+data/
+    your_SPEI_file.csv
+```
+
+4. 
