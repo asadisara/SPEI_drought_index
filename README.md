@@ -36,3 +36,23 @@ data/
 This repository does not include datasets, so the code will not run until you add your own CSV files.
 
 ## 4. Run the full modelling pipeline
+
+```bash
+python main.py
+```
+
+This executes:
+
+. feature engineering
+
+. model training and hyperparameter search
+
+. evaluation (train/test/full)
+
+. extrema and midpoint detection
+
+. SHAP + LIME interpretability
+
+. figure generation
+
+All outputs will be saved automatically to:
