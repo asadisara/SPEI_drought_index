@@ -43,16 +43,16 @@ python main.py
 
 This executes:
 
-. feature engineering
+- feature engineering <br />
 
-. model training and hyperparameter search
+- model training and hyperparameter search <br />
 
-. evaluation (train/test/full)
+- evaluation (train/test/full) <br />
 
-. extrema and midpoint detection
+- extrema and midpoint detection <br />
 
-. SHAP + LIME interpretability
+- SHAP + LIME interpretability <br />
 
-. figure generation
+- figure generation <br />
 
 All outputs will be saved automatically to:
