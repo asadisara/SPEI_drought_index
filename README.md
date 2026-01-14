@@ -63,3 +63,9 @@ output/tables/
 output/explanations/
 ```
 
+## 5. (Optional) Clean outputs
+If you want to clear previous results:
+
+```bash
+rm -r output/*
+```
