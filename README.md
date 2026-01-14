@@ -11,13 +11,13 @@ input datasets can be freely downloaded [here] (https://www.miteco.gob.es/ca/agu
 
 First, make sure you have conda installed. Then install the environment and dependencies.
 
-1. Clone the project:
+## 1. Clone the project:
 
 ```bash
 git clone https://github.com/asadisara/SPEI_drought_index.git
 ```
 
-2. Create and activate the environment
+## 2. Create and activate the environment
 
 ```bash
 cd SPEI_drought_index
@@ -26,11 +26,13 @@ conda activate spei-env
 pip install -r requirements.txt
 ```
 
-3. Add your data
+## 3. Add your data
 
 ```bash
 data/
     your_SPEI_file.csv
 ```
 
-4. 
+This repository does not include datasets, so the code will not run until you add your own CSV files.
+
+## 4. Run the full modelling pipeline
